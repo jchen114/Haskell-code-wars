@@ -1,5 +1,7 @@
 import Data.List
 
+-- Given two arrays of strings a1 and a2 return a sorted array in lexicographical order and without duplicates of the strings of a1 which are substrings of strings of a2.
+
 -- Sorry for the name of the function.
 inArray :: [String] -> [String] -> [String]
 inArray [] _ = []
